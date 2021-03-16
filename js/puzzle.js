@@ -5,7 +5,7 @@ function shuffle(given) {
   var x = 0;
   var e = 0;
   while (randomized.length < given.length) {
-    rand = Math.floor((Math.random() * given.length) + 0);
+    var rand = Math.floor((Math.random() * given.length) + 0);
     var y = 0;
     while (y <= randomized.length) {
       i = 0;

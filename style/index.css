@@ -163,3 +163,25 @@ button:hover {
     background: var(--primary);
     border-color: var(--primary);
 }
+@media(max-width: 460px) {
+    #itemsContainer {
+        width: unset;
+    }
+    
+    button {
+        font-size: 18px;
+        border-radius: 4px;
+        padding: 12px 24px;
+        font-weight: 600;
+    }
+}
+@media(max-width: 420px) {
+    #itemsContainer {
+        width: 270px;
+    }
+    
+    .item {
+        height: 60px;
+        width: 60px;
+    }
+}
