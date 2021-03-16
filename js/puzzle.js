@@ -91,7 +91,7 @@ const Splash = () => {
         X
       </button>
       <span>🎉 🎉</span>
-      <h2>You Won!!</h2>
+      <h2>Hooray!!</h2>
       <!-- 🎮 -->
       <button onclick="Start()">Play Again </button>
     </div>
